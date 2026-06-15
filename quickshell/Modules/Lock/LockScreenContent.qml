@@ -714,7 +714,7 @@ Item {
                     Item {
                         id: lockIconContainer
                         anchors.left: parent.left
-                        anchors.leftMargin: Theme.spacingM
+                        anchors.leftMargin: Theme.spacingM + 8
                         anchors.verticalCenter: parent.verticalCenter
                         width: 20
                         height: 20
@@ -1130,7 +1130,7 @@ Item {
                         id: enterButton
 
                         anchors.right: parent.right
-                        anchors.rightMargin: 2
+                        anchors.rightMargin: 12
                         anchors.verticalCenter: parent.verticalCenter
                         iconName: "keyboard_return"
                         buttonSize: 36
